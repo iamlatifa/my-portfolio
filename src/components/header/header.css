@@ -1,4 +1,4 @@
-.header {
+header {
   min-height: 85vh;
   display: flex;
   align-items: center;
@@ -7,15 +7,16 @@
   background-image:
     linear-gradient(
       180deg,
-      var(--bg-main),
-      var(--bg-section)
+      rgba(6, 12, 30, 0.75),
+      rgba(6, 12, 30, 0.95)
     ),
-    var(--bg-img) !important;
+    var(--bg-img);
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 
 /* GRID LAYOUT */
 .header_container {
