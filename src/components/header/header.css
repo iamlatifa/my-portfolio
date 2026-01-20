@@ -1,21 +1,22 @@
-.header {
+header {
   min-height: 85vh;
   display: flex;
   align-items: center;
   padding-top: 5rem;
 
-  background-image:
+  background:
+    radial-gradient(
+      circle at 20% 30%,
+      rgba(59, 130, 246, 0.15),
+      transparent 60%
+    ),
     linear-gradient(
       180deg,
-      var(--bg-main),
-      var(--bg-section)
-    ),
-    var(--bg-img) !important;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+      #050b1f,
+      #020617
+    );
 }
+
 
 /* GRID LAYOUT */
 .header_container {
