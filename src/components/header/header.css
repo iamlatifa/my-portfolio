@@ -10,7 +10,7 @@
       var(--bg-main),
       var(--bg-section)
     ),
-    var(--bg-img);
+    var(--bg-img) !important;
 
   background-size: cover;
   background-position: center;
