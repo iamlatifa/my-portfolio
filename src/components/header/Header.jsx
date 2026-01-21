@@ -7,7 +7,7 @@ import bg from "../../assets/background-home.png";
 const Header = () => {
   return (
 
-    <header className="header" style={{ "--bg-img": `url(${bg})` }}>
+    <header id="header">
       <div className="container header_container">
         <HeaderIntro />
         <HeaderAboutCard />

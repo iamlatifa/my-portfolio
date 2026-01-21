@@ -10,7 +10,7 @@ const projects = [
     id: 3,
     image: IMG1,
     title: "E-Attendance",
-    github: "https://github.com/iamlatifa/attendance-frontend",
+    github: "https://github.com/iamlatifa/Attendance_app",
     description: "Digital document management system"
   
   },  
